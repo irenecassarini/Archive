@@ -22,6 +22,7 @@ h1 {
 }
 
 #archive {
+  background: black;
   color: #39ff15;
   display: block;
   margin: 0 auto;

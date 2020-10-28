@@ -1,6 +1,6 @@
 body {
   font-family: "Krona One", sans-serif;
-  background: black;
+  background: #000208;
 }
 
 h1 {
@@ -9,13 +9,12 @@ h1 {
 }
 
 #fluid {
-  width: 500px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 130px;
+  width: 60%;
 }
 
 #archive {
+  background: black;
   color: #39ff15;
   display: block;
   margin: 0 auto;
@@ -23,7 +22,8 @@ h1 {
   padding: 15px 25px 15px 25px;
   border-radius: 4px 50px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   box-shadow: 1px 1px 4px 1px #007bff;
 }
 
