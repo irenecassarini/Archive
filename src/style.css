@@ -72,7 +72,6 @@ h1 {
 }
 
 #archive:hover {
-  cursor: progress;
   color: #39ff15;
   background: black;
 }
