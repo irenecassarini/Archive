@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/44222469aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/se-style.css" />
+    <title>Cloudy Archive</title>
+</head>
+
+<body>
+
+    <div class="container">
+    <img class="card-img" src="src/fluid.gif" alt="Card image" id= "fluid"/>
+    <div class="card-img-overlay">
+       
+    <button type="button" class="btn btn-dark" id = "archive"> ☁️ Cloudy Archive 💨</button>
+        <hr>
+<div class="row">
+    <div class="col-3">
+            <button type="button" class="btn btn-light shows"  id= "show-1">Show 1 <br>
+            <small class = "genre"> <i> IDM - ambient -</i> </small>
+<iframe width="100%" height="120"
+    src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&hide_artwork=1&feed=%2Fsoundextremism%2Fsound-extremism-1%2F"
+    frameborder="0"></iframe><div class="popup" onclick="myFunction()"> Tracklist
+        <span class="popuptext" id="myPopup"> A Simple Popup!</span>
+    </div>
+</button></div>
+
+            
+            <div class="col-3">
+            <button type="button" class="btn btn-light shows" id="show-2">Show #2
+                <img src="src/sky.jpg" width="200px" alt="">
+            </button></div>
+               
+            <div class="col-3">
+            <button type="button" class="btn btn-light shows" id="show-3">Show #3
+                <img src="src/sky.jpg" width="200px" alt=""></button></div>
+       
+            <div class="col-3">
+            <button type="button" class="btn btn-light shows" id="show-4">Show #4
+                <img src="src/sky.jpg" width="200px" alt=""></button></div></div>
+
+    
+    </div>
+    </div>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+</html>
