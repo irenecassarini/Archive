@@ -13,7 +13,7 @@ var tracklistm2 ="Shushu - So Sick of Lif3 <br> Oblinof - Holotropic (Evil Medv�
 var tracklistm3 = "Mica Levi - Interlude 1 <br>ssaliva - jazz <br>IVVVO - Last Days Ft Maxwell Sterling <br>Luxxuryproblems - environments (variations) <br>ssaliva - shard <br>Guenter Råler - No ending <br>silént phil, SIQMENT.HIDDEN, DEAD XICE, data drain, gurtle - Enter The Facility <br>Precolumbian - MORPHINE X RESPIRATOR <br>silént phil - immortal <br>since2side - Quell <br>Beham - Spiders <br>De Grandi - Mercé La Zone <br>Aïsha Devi - I'm Not Always Where My Body Is (Varg Remix) <br>7777 の天使 - I Felt The Golden Gates <br>Frank Ocean - Rushes <br>Solange - Beltway <br>Sega Bodega & Eartheater - Fade Into You <br>YvesTumor - Lifetime"
 var tracklistm4="Cedric Madden - Racer <br>Oklou - Holy Lost Arizona <br>Vince Staples (Feat. Yugen Blakrok And Kendrick Lamar) - Opps  <br>Chynna - Attention <br>Dirty K - Torment<br>Odete - TO THOSE WHO ARE PARANOID, BROKEN, BORED 7  <br>Dreams - Terraform <br>Microhm - Kyoke <br>Nick Leon - Grillo <br> Europa - Alors on dorme <br>Raiden - Bulma feat. Nahshi (Turian Remix) <br>séverine - LOOK HOW HARD IM INTO YOU <br>turian - exo <br>Lamb Kebab & Doll Face - Burn <br> Alignment - 1992 <br> Miss Jay - Homance or Bromance <br> Siu Mata & Amor Satyr - Neutrino <br> Merca Bae & Miss Jay - Portal <br>J-Zbel - Hardcore Jusqu'au PEF <br>DEAD XICE - SSS <br>Bamba Pana - Kusini (Slikback remix)"
 var tracklistm5 = "Lanark Artefax - Voices Near The Hypocentre <br>Doubt - HD Tool<br>Lo Shea - Prang<br>Giant Swan - IGOM<br>Ausschuss- Def Recco <br>Know V.A. - Til The Sun Rises <br>Know V.A. - Somato<br>F͇a̹u̼s̚t͌o̲ M̤e̝r͗̍͊cͥi͎e̵r̶ - MIND BUSINESS (Ice_Eyes Remix) <br>E-Saggila - Tilt<br>De Grandi - My Volvo, My Rules (-555- Mix)<br>Funeral - 01011000<br>Anetha - Disinhibition<br>Blawan - Many many pings<br>West Norwood Cassette Library - Drop (Knowing Looks Remix) <br>KESMO - Swip Hard<br>L O S C I - On Both Sides of the Rifle<br>LADONNA ZYLBERSZTAJN - WORMS<br>DJ Dione - 1 Beat 2 Heaven"
-
+var tracklistm6 = "Thirdworldlabour - Totem (The Revolution Will Not Be Streamed) <br> Oklou - God's chariots <br>jjjacob - Cestoda <br>since2side - Quell <br>Kris Vango - Theta [featuring Lyra Pramuk] <br>Christoff Riedel - Aere <br>Shayu - Blingy <br>111X - Shiver <br>WULFFLUW XCIV - Night Romance Or Story About Dancefloor Heartbreak <br>RO Zar - Growth <br> KMRU - eve_rem <br> MRTRY - MUTATE SHELL <br> KABLAM - I Am Baby <br> Nahash - The Horns feat. Osheyack <br> Know V.A. - Mirrorscreen <br> TCV - CIU <br> MOESHA13 - No Go Zone"
 
 
 function handleSound(){
@@ -132,6 +132,11 @@ function handleMix5() {
   var popup = document.getElementById("m5");
   popup.classList.toggle("show");
   document.querySelector("#m5").innerHTML = `${tracklistm5}`
+}
+function handleMix6() {
+  var popup = document.getElementById("m6");
+  popup.classList.toggle("show");
+  document.querySelector("#m6").innerHTML = `${tracklistm6}`
 }
 
 document.querySelector("#SoundExtremism").addEventListener("click", handleSound);
