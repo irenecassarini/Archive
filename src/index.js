@@ -16,12 +16,12 @@ var tracklistm5 = "Lanark Artefax - Voices Near The Hypocentre <br>Doubt - HD To
 var tracklistm6 = "Thirdworldlabour - Totem (The Revolution Will Not Be Streamed) <br> Oklou - God's chariots <br>jjjacob - Cestoda <br>since2side - Quell <br>Kris Vango - Theta [featuring Lyra Pramuk] <br>Christoff Riedel - Aere <br>Shayu - Blingy <br>111X - Shiver <br>WULFFLUW XCIV - Night Romance Or Story About Dancefloor Heartbreak <br>RO Zar - Growth <br> KMRU - eve_rem <br> MRTRY - MUTATE SHELL <br> KABLAM - I Am Baby <br> Nahash - The Horns feat. Osheyack <br> Know V.A. - Mirrorscreen <br> TCV - CIU <br> MOESHA13 - No Go Zone"
 
 
-function handleSound(){
-   window.location = 'soundextremism.html';
+function handleManifesto(){
+   window.location = 'manifesto.html';
 }
 
-function handleMixes(){
-   window.location = 'mixes.html';
+function handleAbout(){
+   window.location = 'about.html';
 }
 
 function handleLiveShows(){
@@ -32,8 +32,8 @@ function handleHome(){
    window.location = 'home.html';
 }
 
-function handleReleases(){
-   window.location = 'releases.html';
+function handleMembers(){
+   window.location = 'members.html';
 }
 function BuyMobileEnergy(){
    window.open("https://guenterraler.bandcamp.com/album/mobile-energy-ep");
@@ -139,7 +139,11 @@ function handleMix6() {
   document.querySelector("#m6").innerHTML = `${tracklistm6}`
 }
 
-document.querySelector("#SoundExtremism").addEventListener("click", handleSound);
-document.querySelector("#mixes").addEventListener("click", handleMixes);
+function handleFollow(){
+  window.open("https://www.instagram.com/extr0.gen/");
+}
+
+document.querySelector("#manifesto").addEventListener("click", handleManifesto);
+document.querySelector("#about-btn").addEventListener("click", handleAbout);
 document.querySelector("#liveshows").addEventListener("click", handleLiveShows);
-document.querySelector("#releases").addEventListener("click", handleReleases);
+document.querySelector("#members").addEventListener("click", handleMembers);
